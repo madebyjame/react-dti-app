@@ -1,9 +1,6 @@
-import React from 'react'
-// import navbar from '../components/Navbar'
-// import Footer from '../components/Footer'
+import PageContent from '../components/PageContent'
 
 export default function Tablet() {
-  return (
-    <div>Tablet</div>
-  )
+  return <PageContent title="Tablet Page" subtitle="แท็บเล็ต" />
 }
+

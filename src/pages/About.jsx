@@ -1,8 +1,6 @@
-import React from 'react'
-// import navbar from '../components/Navbar'
-// import Footer from '../components/Footer'
+import PageContent from '../components/PageContent'
+
 export default function About() {
-  return (
-    <div>About</div>
-  )
+  return <PageContent title="About Page" subtitle="เกี่ยวกับเรา" />
 }
+

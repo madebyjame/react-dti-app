@@ -1,9 +1,6 @@
-import React from 'react'
-// import navbar from '../components/Navbar'
-// import Footer from '../components/Footer'
+import PageContent from '../components/PageContent'
 
 export default function Product() {
-  return (
-    <div>Product</div>
-  )
+  return <PageContent title="Product Page" subtitle="สินค้า" />
 }
+

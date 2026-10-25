@@ -1,9 +1,6 @@
-import React from 'react'
-// import navbar from '../components/Navbar'
-// import Footer from '../components/Footer'
+import PageContent from '../components/PageContent'
 
 export default function Smartphone() {
-  return (
-    <div>Smartphone</div>
-  )
+  return <PageContent title="Smartphone Page" subtitle="สมาร์ตโฟน" />
 }
+
